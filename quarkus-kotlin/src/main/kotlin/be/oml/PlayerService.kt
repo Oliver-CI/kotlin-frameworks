@@ -4,6 +4,7 @@ import io.quarkus.hibernate.orm.panache.kotlin.PanacheRepository
 import io.quarkus.runtime.Startup
 import javax.enterprise.context.ApplicationScoped
 import javax.transaction.Transactional
+import kotlin.streams.toList
 
 
 @ApplicationScoped
